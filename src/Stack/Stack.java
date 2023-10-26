@@ -44,6 +44,6 @@ public class Stack {
         stack.traverse();
 
         System.out.println("\nPopped: " + stack.pop());
-        System.out.println("Popped: " + stack.pop());
+        stack.traverse();
     }
 }

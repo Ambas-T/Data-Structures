@@ -19,7 +19,7 @@ import java.util.Stack;
  */
 public class TopologicalOrdering {
 
-    private Stack<Vertex> stack;
+    private final Stack<Vertex> stack;
 
     public TopologicalOrdering(){
         this.stack = new Stack<>();

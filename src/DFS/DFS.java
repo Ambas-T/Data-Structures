@@ -10,7 +10,7 @@ import java.util.Stack;
  */
 public class DFS {
 
-    private Stack<Vertex> stack;
+    private final Stack<Vertex> stack;
 
     public DFS(){
         this.stack = new Stack<>();

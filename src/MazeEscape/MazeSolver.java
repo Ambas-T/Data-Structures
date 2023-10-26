@@ -2,10 +2,10 @@ package MazeEscape;
 
 public class MazeSolver {
 
-    private int[][] maze;
-    private boolean[][] visited;
-    private int startRow;
-    private int startCol;
+    private final int[][] maze;
+    private final boolean[][] visited;
+    private final int startRow;
+    private final int startCol;
 
     public MazeSolver(int[][] maze, int startRow, int startCol) {
         this.maze = maze;
@@ -28,8 +28,7 @@ public class MazeSolver {
         if(x < 0 || x > maze.length - 1) return false;
         if(y < 0 || y > maze.length - 1) return false;
         if(visited[x][y]) return false;
-        if(maze[x][y] == 1) return false;
-        return true;
+        return maze[x][y] != 1;
     }
 
     private boolean dfs(int x, int y) {

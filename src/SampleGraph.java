@@ -34,7 +34,7 @@
  */
 
 public class SampleGraph {
-    private static int[][] adjacencyMatric = {
+    private static final int[][] adjacencyMatric = {
             {0,2,4,0},
             {0,0,0,3},
             {0,0,0,0},

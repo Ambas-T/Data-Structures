@@ -5,9 +5,9 @@ import java.util.List;
 
 public class VertexBFS {
 
-    private String name;
+    private final String name;
     private boolean visited;
-    private List<VertexBFS> adjacencyList;
+    private final List<VertexBFS> adjacencyList;
 
     public VertexBFS(String name){
         this.name = name;

@@ -142,10 +142,10 @@ public class SingleLinkedList {
         list.insertInTheMiddle(list, 46, 3);
         list.insertAtStart(list, 7);
         traverse(list);
-        System.out.println("");
+        System.out.println();
         list.deleteByElement(list, 6);
         traverse(list);
-        System.out.println("");
+        System.out.println();
         System.out.println("" + elementFoundInList(list, 1));
         System.out.println("" + elementFoundInList(list, 100));
     }

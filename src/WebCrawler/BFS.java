@@ -12,8 +12,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class BFS {
-    private Queue<String> queue;
-    private List<String> discoveredWebsites;
+    private final Queue<String> queue;
+    private final List<String> discoveredWebsites;
 
     public BFS() {
         this.queue = new LinkedList<>();
@@ -49,7 +49,7 @@ public class BFS {
     }
 
     private String readURL(String v) {
-        StringBuilder rawHtml = new StringBuilder("");
+        StringBuilder rawHtml = new StringBuilder();
         try
         {
             URL url = new URL(v);

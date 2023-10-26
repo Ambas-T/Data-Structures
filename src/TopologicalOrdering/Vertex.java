@@ -7,7 +7,7 @@ public class Vertex {
 
     private String name;
     private boolean visited;
-    private List<Vertex> neighbors;
+    private final List<Vertex> neighbors;
 
     public Vertex(String name){
         this.name = name;

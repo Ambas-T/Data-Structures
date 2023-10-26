@@ -152,12 +152,12 @@ public class DoubleLinkedList {
         list.insertAtBeginning(list, 6);
         list.insertAtEnding(list, 40);
         traverseForward(list);
-        System.out.println("");
+        System.out.println();
         list.insertAtPosition(list, 30, 3);
         traverseForward(list);
-        System.out.println("");
+        System.out.println();
         list.deleteElementByValue (list, 4);
         traverseForward(list);
-        System.out.println("");
+        System.out.println();
     }
 }
