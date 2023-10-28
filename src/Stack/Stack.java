@@ -4,7 +4,6 @@ package Stack;
 
 public class Stack {
 
-
     private Node head;
 
     public void push(int data){
