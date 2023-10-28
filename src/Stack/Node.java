@@ -1,6 +1,9 @@
 package Stack;
 
+import java.util.HashMap;
+
 public class Node {
+
 
     private int data;
     private Node next;

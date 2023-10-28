@@ -1,6 +1,9 @@
 package Stack;
 
+
+
 public class Stack {
+
 
     private Node head;
 

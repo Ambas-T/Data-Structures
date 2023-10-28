@@ -44,6 +44,8 @@ public class Queue {
         }
     }
 
+
+
     public static void main(String[] args) {
         Queue queue = new Queue();
 
@@ -53,9 +55,8 @@ public class Queue {
         queue.enqueue(4);
 
         queue.traverse();
-
-        queue.dequeue();
-
+        System.out.println(" ");
+        System.out.println("Remove From the Queue " + queue.dequeue());
         queue.traverse();
     }
 }
