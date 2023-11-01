@@ -24,6 +24,15 @@ public class CycleDetection {
                 System.out.println("Backward edge  .. there is a cycle");
                 return;
             }
+
+            if(!v.isBeingVisited())
+            {
+                v.setVisited(true);
+                dfs(v);
+            }
         }
+
+        vertex.setBeingVisited(false);
+        vertex.setVisited(true);
     }
 }
